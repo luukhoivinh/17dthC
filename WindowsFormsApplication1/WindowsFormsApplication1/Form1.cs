@@ -21,5 +21,10 @@ namespace WindowsFormsApplication1
         {
          
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tai khoan: "+textBox1.Text+"\n Mat Khau:" +textBox2.Text,"Thong tin abc");
+        }
     }
 }
